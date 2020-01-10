@@ -1,0 +1,1845 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" style="background-image: url(images/img8.jpg); background-position: top;" >
+<head>
+  <title>AICTE</title>
+  <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/jpg" href="images/logo7.jpg">
+  
+ <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="dashboard/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" type="text/css" href="https://www.hacksociety.tech/attend/styles/chat.280f49dc.css">
+  <link rel="stylesheet" type="text/css" href="https://www.aicte-india.org/sites/all/themes/educational/css/base.css?pmjf3s">
+
+   <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=53ed4add-7080-46e2-8ce3-30db0cf18105"> </script>
+        <script type="text/javascript">(function(t,e){var r=function(t){try{var r=e.head||e.getElementsByTagName("head")[0];a=e.createElement("script");a.setAttribute("type","text/javascript");a.setAttribute("src",t);r.appendChild(a);}catch(t){}};t.CollectId = "5c7b07519c0ec315cb829df6";r("https://collectcdn.com/launcher.js");})(window,document);</script>
+
+        
+
+  
+        
+  <style>
+
+.back-button, .challenge-admin-tabs, .challenge-list div, .copyToClipboard, .event-list div, .exportToCSV:hover, .hackathon-card-container, .hackathon-listing div, .member-tab span, .option-modal, .organizerNav .active, .organizerNav a:hover, .pageNumber:hover, .participants_status:hover, .user-image-nav {
+    cursor: pointer;
+}
+
+.challenge-image, .corner-ribbon {
+    overflow: hidden;
+}
+
+@media (min-width: 768px) {
+.col-sm-4 {
+    width: 33.33333333%;
+}}
+
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+body, html {
+    height: 100%;
+    flex-direction: column;
+    background-color: #fff!important;
+    font-family: Montserrat,sans-serif!important;
+    overflow-x: hidden;
+}
+
+.login_btn {
+    background: #f37020;
+    width: 144px;
+    height: 24px;
+    display: inline-block;
+    background-size: 100%;
+    padding: 0;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+    text-align: center;
+    color: #fff;
+   
+    border-radius: 3px;
+    padding-top: 2px;
+}
+
+h2 {
+
+  color: black;
+} 
+
+p {
+
+  color: black;
+}
+
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+       background-color: #2c3c5bf0;   }
+    
+.navbar-inverse {
+        background-color: red;
+    background-image: linear-gradient(90deg, purple,blue,purple);
+    border-color: #fff;
+    
+  }
+
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #eee;
+    padding: 14px;
+}
+
+
+
+.dropdown-menu>li>a {
+    display: block;
+    padding: 2px 2px;
+    clear: both;
+    font-weight: 300;
+    line-height: 1.22857143;
+    color: #fff;
+    white-space:nowrap;
+    text-align: left;
+
+    }
+
+
+.affix {
+            top:0;
+             width: 100%;
+            z-index: 9999 !important;
+          }
+
+          
+.list-group-item, button.list-group-item {
+    color: #000;
+}
+
+.dropdown-menu {
+    background-color: #7622ab;
+}
+
+
+.topdiv {
+    
+    background: #ffffff;
+    clear: both;
+
+}
+
+
+
+
+
+
+
+.top_banner {
+    height: 90px;
+    width: 100%;
+    background-color: white;
+
+}
+
+
+.sat {
+
+  padding: 0px 0px 0px 00px;
+      float: right;
+}
+
+
+
+   
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:600px;
+      max-height: 600px;
+  }
+
+.floating-nav .active, .floating-nav button:hover {
+    background-color: #f37020;
+    color: #fff;
+}
+
+
+.floating-nav button {
+    margin-right: 20px;
+    background-color: #fff;
+    color: #2c3c5b;
+    border: 1px solid #f37020;
+    padding: 5px 15px;
+    transition: color .25s ease;
+}
+
+
+
+
+
+a.list-group-item, button.list-group-item {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+.topbuton {
+
+  text-align: right;
+}
+
+
+.banner_text h1 {
+    font-size: 2.3em;
+     margin: 0;
+   box-shadow: 0px 1.25px #ff942a;
+   
+ 
+}
+
+
+
+.banner_text {
+    position: absolute;
+    
+    left: 50%;
+    top: 30%;
+
+  
+
+}
+
+.log {
+  
+  margin-top: 17px;
+
+}
+
+.hed {
+
+    
+  margin-right: 80px;
+  margin-left: 50px;
+
+
+
+}
+
+
+.bot {
+
+  margin-right: 10px;
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+
+
+.dom {
+
+  background-image: url(images/indexbg.gif);
+          background-repeat: no-repeat;
+          background-position: center;
+  
+
+}
+
+.fooot {
+
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+
+   
+
+
+
+
+.search {
+
+
+   
+    float: right;
+   
+
+   }
+
+
+   .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #fff;
+    cursor: default;
+    background-color: #ff942a;
+    border: 1px solid #ff942a;
+    border-bottom-color: #ff942a;
+}
+
+.nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid #ff942a;
+    border-radius: 4px 4px 0 0;
+}
+
+
+.bs-example {
+    position: relative;
+    padding: 5px 15px 15px;
+    margin: 0 -15px 15px;
+    border-color: #ff942a #ff942a #ff942a;
+    border-style: solid;
+    border-width: 1px 0;
+    -webkit-box-shadow: inset 0 3px 6px rgba(0,0,0,.05);
+    box-shadow: inset -1px 0px 0px 0px rgb(255, 148, 42);
+}
+
+
+
+.nav-tabs {
+    border-bottom: 1.5px solid #ff942a;
+}
+
+
+
+
+.btn-primary {
+    background: #317AE1;
+    color: #fff;
+    border: 2px solid #317AE1;
+}
+ 
+
+
+
+
+.vid {
+
+  padding-bottom: 400px;
+
+}
+
+
+
+ 
+
+  .ic {
+
+    font-size: 85px;
+    vertical-align: middle;
+    line-height: 40px;
+    display: table-cell;
+    color: blue;
+  }
+
+
+.had {
+
+  padding: 
+  margin-bottom:100px;
+}
+
+#back {
+
+  background-image: url(images/img8.jpg);
+  background-repeat: repeat;
+  background-position: right;
+}
+
+
+.bars>a {
+
+ color: #000;
+}
+
+
+
+@media not all, (-webkit-transform-3d) {
+.carousel-inner>.item {
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    -o-transition: -o-transform .1s ease-in-out;
+    transition: transform .1s ease-in-out;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+}}
+
+
+
+
+ @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+
+
+      #myFooter {
+    background-color: #ff942a;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: -9px;
+}
+
+
+
+
+
+#myFooter .navbar-brand {
+    margin-top: 5px;
+    height: 65px;
+}
+
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter h2 a{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+#myFooter a {
+    color: white;
+    text-decoration: none;
+}
+
+
+#myFooter .social-networks {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 16px;
+}
+
+#myFooter .social-networks a {
+    font-size: 32px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover {
+    text-decoration: none;
+}
+
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .google:hover {
+    color: #ef1a1a;
+}
+
+#myFooter .twitter:hover {
+    color: #00aced;
+}
+
+#myFooter .btn {
+
+  background: -moz-linear-gradient(top,  #33a6cc 50%, #0099cc 50%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#33a6cc), color-stop(50%,#0099cc)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #33a6cc 50%,#0099cc 50%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #33a6cc 50%,#0099cc 50%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #33a6cc 50%,#0099cc 50%); /* IE10+ */
+  background: linear-gradient(to bottom,  #33a6cc 50%,#0099cc 50%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33a6cc', endColorstr='#0099cc',GradientType=0 ); /* IE6-9 */
+
+
+    color: white;
+    background-color: #d84b6b;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 25px;
+    outline: none;
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+}
+
+
+/* CSS used for positioning the footers at the bottom of the page. */
+/* You can remove this. */
+
+
+
+.content{
+   flex: 1 0 auto;
+   -webkit-flex: 1 0 auto;
+   min-height: 2px;
+}
+
+#myFooter{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+}
+
+.ticker_custm {
+    background: rgb(219, 189, 249);
+    position: fixed;
+    z-index: 9999999999;
+    bottom: 0;
+    width: 100%;
+ 
+}
+
+.mtphr-dnt-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.ticker_custm .mtphr-dnt-title.mtphr-dnt-inline-title {
+    background: #4575d4;
+    margin: 0;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 7px;
+  
+}
+
+.mtphr-dnt-inline-title {
+    float: left;
+    padding-right: 5px;
+}
+
+.mtphr-dnt-tick-container {
+    position: relative;
+}
+
+.ticker_custm .mtphr-dnt-tick-contents {
+    margin-top: 4px;
+}
+
+.mtphr-dnt-tick-contents {
+    position: relative;
+    overflow: hidden;
+}
+
+.mtphr-dnt-scroll-left .mtphr-dnt-tick, .mtphr-dnt-scroll-right .mtphr-dnt-tick {
+    white-space: nowrap;}
+
+
+h2.block__title {
+    margin: 0;
+    padding: 7px 10px;
+    background-color: #2A5CAA;
+    color: #FFF;
+    font-size: 22px;
+    font-size: 100%;
+}
+
+#feeddiv {
+    margin-bottom: 10px;
+    max-height: 370px;
+    overflow-x: hidden;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}p {
+    color: #000;
+    text-align: left;
+    font-size: 14px;
+    line-height: 25px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+table {
+    border: 1px solid #CCCCCC;
+    border-collapse: collapse;
+    font-size: 100%;
+    width: 100%;
+}
+@media (max-width: 640px){
+
+.mediablogtweet .media, .tweet {
+    width: 100%;
+    margin: 20px 0 0;}
+}
+
+.mediablogtweet .media {
+    background: #fafafa none repeat scroll 0 0;
+    border: 1px solid #2A5CAA;
+    float: right;
+    /* margin: 35px 10px; */
+    border-radius: 5px;
+    /* padding: 10px 20px 11px; */
+    width: 28%;
+    min-height: 470px;
+}
+
+#feeddiv table tr td {
+    border: none;
+    border-top: none;
+}
+table tr td {
+    border-bottom: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    color: #000000;
+    padding: 8px;
+}
+img {
+    border: none;
+}
+
+
+
+panel-body .btn:not(.btn-block) {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+  hr.style14 { 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+
+.search-form .form-group {
+  float: right !important;
+  transition: all 0.35s, border-radius 0s;
+  width: 2px;
+  height: 32px;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+}
+.search-form .form-group input.form-control {
+  padding-right: 10px;
+  border: 0 none;
+  background: transparent;
+  box-shadow: none;
+  display:block;
+}
+.search-form .form-group input.form-control::-webkit-input-placeholder {
+  display: none;
+}
+.search-form .form-group input.form-control:-moz-placeholder {
+  /* Firefox 18- */
+  display: none;
+}
+.search-form .form-group input.form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  display: none;
+}
+.search-form .form-group input.form-control:-ms-input-placeholder {
+  display: none;
+}
+.search-form .form-group:hover,
+.search-form .form-group.hover {
+  width: 100%;
+  border-radius: 4px 25px 25px 4px;
+}
+
+.has-feedback .form-control {
+    padding-right: .5px;
+}
+
+#livesearch>a {
+    color: #ffffff;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+
+.home-content {
+    padding-bottom: 30px;
+}
+
+h2.visionHead {
+    text-align: center;
+    border-bottom: 1px solid #e2e1e1;
+    padding-bottom: 10px;
+    font: bold 17px/19px Verdana !important;
+    line-height: 25px !important;
+}
+
+p.visiontxt {
+    text-align: center;
+    font-size: 1.4em;
+    line-height: 1.6em;
+    margin-bottom: 20px;
+}
+
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+}
+
+
+ul.visionList li {
+    float: left;
+    width: 142px;
+    text-align: center;
+}
+ul.visionList {
+    list-style-type: none;
+}
+
+@media only screen and (max-width: 1199px)
+{
+ul.visionList li {
+    margin-bottom: 20px;
+}}
+
+img {
+    max-width: 100%;
+}
+
+ul.visionList li a {
+    font-size: 1.2em;
+    line-height: 1.2em;
+    text-decoration: none;
+    cursor: pointer;
+    color: #265986;
+}
+
+.visionIcon_brown {
+    background: #000;
+}
+
+.visionIcon {
+    background: #000;
+    border-radius: 50%!important;
+    line-height: 75px;
+    width: 75px;
+    margin: 0 auto 10px;
+}
+
+.visionIcon_lightOrange {
+    background: #000;
+}
+
+.updtSecWrap {
+    background-color: #ffe6cc;
+    padding: 30px;
+}
+
+@media only screen and (max-width: 991px)
+{
+.inFocus {
+    height: 256px;
+}}
+
+.inFocus {
+    background-color: #ffdebc;
+    color: #003a68;
+    padding: 20px;
+    text-align: center;
+    height: 210px;
+    overflow: hidden;
+}
+
+
+
+.inFocus ul li {
+    font-size: 1.4em;
+    line-height: 1.6em;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.tabWrap {
+    background-color: #fff;
+    padding: 15px;
+}
+
+.visionIcon_violet {
+    background: #993365;
+}
+
+.visionIcon_red {
+    background: #c9252c;
+}
+
+.visionIcon_green {
+    background: #3dbb95;
+}
+
+.visionIcon_blue {
+    background: #00adef;
+}
+
+.visionIcon_brown {
+    background: #954731;
+}
+.visionIcon_lightOrange {
+    background: #fd9c53;
+}
+
+.schemeWrap {
+    background-color: #ebedf1;
+    padding: 30px 0;
+}
+
+.scheme {
+    border-right: 1px solid #999;
+    padding: 0 20px 0 0;
+}
+
+.scheme h3 {
+    font-size: 2.6em;
+    color: #012951;
+    margin: 0 0 5px;
+    padding: 0;
+}
+
+.scheme p {
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #333;
+}
+
+a.moreSchm {
+    font-size: 1em;
+    color: #00468b;
+}
+
+ul.schm {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.schm li a {
+    font-size: 1em;
+    line-height: 1em;
+    text-decoration: none;
+    color: #464646;
+}
+
+ul.schm li a img {
+    margin-bottom: 5px;
+}
+
+ul.schm li.last {
+    margin-right: 0;
+}
+
+ul.schm li {
+    float: left;
+    width: 171px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+
+.service_footer li a{
+  text-decoration: none;
+  margin-right: 80px;
+margin-left: 55px; 
+}
+.service_footer{
+  min-height: 57px;
+background-color: #2d3742;
+margin-top: 45px;
+margin-bottom: 2%;
+}
+  .service_footer li{
+list-style-type: none;
+float: left;
+margin-top: 10px;
+  }
+
+
+.fl-fl {
+  background: #000000;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 4px;
+  width: 190px;
+  position: fixed;
+  right: -160px;
+  z-index: 1000;
+  font: normal normal 10px Arial;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+
+
+.fl-fl:hover {
+  right: 0;
+}
+
+.fl-fl a {
+  color: #fff !important;
+  text-decoration: none;
+  text-align: center;
+  line-height: 43px!important;
+  vertical-align: top!important;
+}
+
+.float-fb {
+  top: 160px;
+}
+
+.float-tw {
+  top: 215px;
+}
+
+.float-gp {
+  top: 270px;
+}
+
+.float-rs {
+  top: 325px;
+}
+
+.float-ig {
+  top: 380px;
+}
+
+.float-pn {
+  top: 435px;
+}
+
+html {
+    font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+h5 {
+    font-size: 1.28571429em;
+    font-weight: 700;
+    line-height: 1.2857em;
+    margin: 0;
+}
+
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+}
+
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+}
+
+.card-img-top {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 1.28571429em;
+    font-weight: 700;
+    line-height: 1.2857em;
+}
+
+.card-text {
+    clear: both;
+    margin-top: .5em;
+    color: rgba(0, 0, 0, .68);
+}
+
+.card-footer {
+    font-size: 1em;
+    position: static;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    padding: .75em 1em;
+    color: rgba(0, 0, 0, .4);
+    border-top: 1px solid rgba(0, 0, 0, .05) !important;
+    background: #fff;
+}
+
+.card-inverse .btn {
+    border: 1px solid rgba(0, 0, 0, .05);
+}
+
+.profile {
+    position: absolute;
+    top: -12px;
+    display: inline-block;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.profile-avatar {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.profile-inline {
+    position: relative;
+    top: 0;
+    display: inline-block;
+}
+
+.profile-inline ~ .card-title {
+    display: inline-block;
+    margin-left: 4px;
+    vertical-align: top;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.meta {
+    font-size: 1em;
+    color: rgba(0, 0, 0, .4);
+}
+
+.meta a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .4);
+}
+
+.meta a:hover {
+    color: rgba(0, 0, 0, .87);
+}
+
+
+
+
+  </style>
+</head>
+<body>
+
+<!--
+<div class="float-sm">
+  <div class="fl-fl float-fb" style="background-color: rgba(30, 86, 107, 0.61)" >
+    <i class="fa fa-facebook"></i>
+    <a href="" target="_blank"> Like us!</a>
+  </div>
+  <div class="fl-fl float-tw" style="background-color: rgba(33, 224, 255, 0.51);" >
+    <i class="fa fa-twitter"></i>
+    <a href="" target="_blank">Follow us!</a>
+  </div>
+  <div class="fl-fl float-gp" style="background-color: rgba(255, 148, 42, 0.57);">
+    <i class="fa fa-google-plus"></i>
+    <a href="" target="_blank">Recommend us!</a>
+  </div>
+  <div class="fl-fl float-rs" style="background-color: rgba(20, 18, 21, 0.57);">
+    <i class="fa fa-rss"></i>
+    <a href="" target="_blank">Follow via RSS</a>
+  </div>
+  <div class="fl-fl float-ig" style="background-color: rgba(187, 19, 19, 0.53);">
+    <i class="fa fa-instagram"></i>
+    <a href="" target="_blank">Follow us!</a>
+  </div>
+  <div class="fl-fl float-pn" style="background-color: rgba(0, 0, 0, 0.61);">
+    <i class="fa fa-pinterest"></i>
+    <a href="" target="_blank">Follow us!</a>
+  </div>
+</div>-->
+
+
+<div id="top1"></div>
+<div class="topdiv" style="height:8px;color:black; border: 1px;">
+    
+        <div class="topbuton container "> <span>
+        <img src="images/flag.gif" style="    float: left;"><a href="https://india.gov.in/" style=" float: left; margin-left: 9px;">GOVERNMENT OF INDIA</a>
+
+      <a class="lang" href="hindi.php" style="color: blue; border-left: 1px solid #eee; padding: 9px;">
+              हिंदी</a>  <a  href="index.php" class="dropdown-toggle"  style="color:black; border-left: 1px solid #eee; padding: 10px; "> 
+              English</a>   
+
+
+            <span class="hidden-xs"><a href="#about_" style="color:black; border-left: 1px solid #eee; padding: 9px;">
+               Skip to Main content </a> <a class="font-button minus" href="#main-content"  style="color:black; border-left: 1px solid #eee; padding: 10px;">-A</a>
+
+
+            <a  href="index.php" style="color:black; border-left: 1px solid #eee; padding: 9px; "> 
+               A </a>   
+
+             <a class="font-button plus" href="#" style="color:black; border-left: 1px solid #eee; padding: 9px;"> 
+               +A </a>   
+
+              <a href="http://localhost/public_html/index-o.php#" style="color:black; border-left: 1px solid #eee; padding: 9px;"> <kbd>
+                     A</kbd></a>
+
+             <a href="#" style="color:black; border-left: 1px solid #eee; padding: 9px;"> 
+                 </a>
+
+               <a href="https://portal.aicte-india.org/partnerportal_enu" class="login_btn" target="_blank"><i class="ico-user"></i> Web Portal Login</a></span>
+
+               
+            </span>
+           </span>
+          
+
+        </div>
+    </div>
+    <hr>
+
+
+<div class="top_banner">
+
+
+    <div class="container in_banner">
+        <div class=" logo col-md-8 col-xs-12 col-sm-8  ">
+
+
+            <a href="index.php"><img src="images/logo_new.png" style="height:70px;border-width:0px;" ></a>
+
+             <div class="banner_text col-md-6">
+   
+                   <b> <h2>
+                        
+
+                     </h2></b>
+               </div>
+                    </div> 
+
+       <div class="col-md-4 col-sm-4 sat">
+               <span class="hidden-xs">   <a href="https://india.gov.in/">  <img src="images/logo8.png" style="height:75px;border-width:0px;     float: right;"> </a> </span>
+             </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-inverse "  data-spy="affix" data-offset-top="197 " >
+  <div class="">
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    
+    </div>
+    <div class="collapse navbar-collapse ">
+        <ul class="nav navbar-nav">
+      <li class="active"><a href="index.php">Home</a></li>
+      <li class="dropdown">
+        <a  class="dropdown-toggle" href="../aicte/about/index.php">About Us
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="about/index.php">About AICTE</a></li>
+          <li><a href="about/messages.php">message</a></li>
+          <li><a href="about/regional-offices.php">Regional Offices</a></li>
+          <li><a href="about/whoiswho.php">who is who</a></li>
+        <li><a href="maps.php">contact us</a>
+        </li>
+        </ul>
+      </li>
+
+       <li class="dropdown">
+        <a class="dropdown-toggle"  href="../aicte/Education/reports.php">Events
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="report/ann.php">Annual Report</a></li>
+          <li><a href="report/just.php">Start-Up Policy</a></li>
+          <li><a href="report/yash.php">Yashpal committee Report</a></li>
+        <li><a herf ="report/Justice B.N. Srikrishna Committee Report.php">Justice B.N Srikrishna Committee Report</a></li>
+        <li><a herf ="report/know.php">Knowledge Commission Report</a></li>
+        <li><a herf ="report/sar.php">Sarva Shishka Abhiyan</a></li>
+        <li><a herf ="report/rusa.php">Rashtiya Uchatar Shiksha Abhiyan-RUSA</a></li>
+        <li><a herf ="report/acc.php">Accredited Institutions</a></li>
+        </ul>
+      </li>
+
+       <li class="dropdown">
+        <a class="dropdown-toggle"  href="../aicte/Education/reports.php">Gallery
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="report/ann.php">Annual Report</a></li>
+          <li><a href="report/just.php">Start-Up Policy</a></li>
+          <li><a href="report/yash.php">Yashpal committee Report</a></li>
+        <li><a herf ="report/Justice B.N. Srikrishna Committee Report.php">Justice B.N Srikrishna Committee Report</a></li>
+        <li><a herf ="report/know.php">Knowledge Commission Report</a></li>
+        <li><a herf ="report/sar.php">Sarva Shishka Abhiyan</a></li>
+        <li><a herf ="report/rusa.php">Rashtiya Uchatar Shiksha Abhiyan-RUSA</a></li>
+        <li><a herf ="report/acc.php">Accredited Institutions</a></li>
+        </ul>
+      </li>
+
+<li class="dropdown">
+        <a class="dropdown-toggle" href="../aicte/Education/bureaus.php">Bureaus
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="../aicte/Education/bureaus.php">Administration Bureau</a></li>
+          <li><a href="../aicte/Education/bureaus.php">Academic Bureau</a></li>
+          <li><a href="../aicte/Education/bureaus.php">University Bureau</a></li>
+        <li><a href ="../aicte/Education/bureaus.php">Finance bureaus</a></li>
+        <li><a href="../aicte/Education/bureaus.php">Approvals Bureau</a></li>
+        <li><a herf ="../aicte/Education/bureaus.php">planning & coordination Bureau</a></li>
+        <li><a href ="../aicte/Education/bureaus.php">Research institute & facility development(RIFD)</a></li>
+        </ul>
+      </li>
+
+
+    <li class="dropdown">
+        <a class="dropdown-toggle" href="../aicte/Education/grievance.php">Grievances
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="grievances/anti.php">Anti Ragging</a></li>
+          <li><a href="grievances/rti.php">RTI</a></li>
+          <li><a href="grievances/cvc.php">CVC</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a class="dropdown-toggle"  href="../aicte/Education/reports.php">Reports
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="report/ann.php">Annual Report</a></li>
+          <li><a href="report/just.php">Start-Up Policy</a></li>
+          <li><a href="report/yash.php">Yashpal committee Report</a></li>
+        <li><a herf ="report/Justice B.N. Srikrishna Committee Report.php">Justice B.N Srikrishna Committee Report</a></li>
+        <li><a herf ="report/know.php">Knowledge Commission Report</a></li>
+        <li><a herf ="report/sar.php">Sarva Shishka Abhiyan</a></li>
+        <li><a herf ="report/rusa.php">Rashtiya Uchatar Shiksha Abhiyan-RUSA</a></li>
+        <li><a herf ="report/acc.php">Accredited Institutions</a></li>
+        </ul>
+      </li>
+      
+  
+    </ul>
+   <div class="search">
+<form class="navbar-form navbar-left ">
+         <div class="form-group has-feedback">
+               
+                <input type="text" class="form-control" name="search" id="search" placeholder="Search-Events" size="30" onkeyup="showResult(this.value)">
+<div id="livesearch"></div>
+                  <span class="glyphicon glyphicon-search form-control-feedback"></span>
+              </div>
+      </form>
+            
+  </div></div></div>
+</nav>
+
+
+
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel" style="z-index: 0; margin-top: -0.50px;">
+    <!-- Indicators --> 
+  
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      
+
+      <div class="item active">
+        <img src="images/dev7.jpg">
+        <div class="carousel-caption">
+            
+        </div>      
+      </div>
+
+      <div class="item ">
+        <img src="images/dev8.jpg">
+        <div class="carousel-caption">
+          
+        </div>      
+      </div>
+
+       <div class="item ">
+        <img src="images/Banner_2.jpg">
+        <div class="carousel-caption">
+          
+        </div>      
+      </div>
+
+      <div class="item ">
+        <img src="images/Banner_3.jpg">
+        <div class="carousel-caption">
+          
+        </div>      
+      </div>
+
+
+
+        
+
+    </div>
+
+  
+</div><br>
+
+
+
+
+
+
+
+        
+
+                          <div class="container">
+
+                            <div class="col-md-12 " style="background: white; margin-top: -290px;">
+
+<div class="container floating-nav" > <button ng-class="cur === 'listing' ? 'active' : '' " ng-click="redirect('/')" class="active">Events</button> <button ng-class="cur === 'events' ? 'active' : '' " ng-click="redirect('/events')">Meetings</button>
+
+
+
+<button style="margin-left: 450px;" onclick="window.location.href='admin/adminlogin.php'" class="active" >Admin Login</button> 
+
+
+<button ng-class="cur === 'listing' ? 'active' : '' " ng-click="redirect('/')" onclick="window.location.href='admin/adminlogin.php'" class="active">Canteen Login</button> 
+
+
+<button ng-class="cur === 'listing' ? 'active' : '' " ng-click="redirect('/')" onclick="window.location.href='reg/index.php'" class="active">User Login</button> <!-- <button ng-if="true">{{subnav}}</button> --> </div> <br>
+
+
+
+
+                            <div ng-if="data.length" class="ng-scope"> <b> <h5 style="padding-left: 5px">Upcoming Events</h5> </b> <hr> </div>
+
+
+                                <div ng-click="detail(event.type, event.id);" ng-if="((event.reg_end | date:'yyyy-MM-dd') >= (dayAfterTomorrow | date:'yyyy-MM-dd'))" ng-repeat="event in data track by $index" style="margin-top: 20px" class="ng-scope"> <div class="row" style="margin-bottom: 0"> 
+
+                                    <div class="col-xs-12 col-sm-4 challenge-image" style="background: white;">
+
+
+                                    <div style="position: relative; overflow: hidden"> <img src="images/dev4.jpg" class="responsive-img"> <!-- ngIf: event.reg_int --><div ng-if="event.reg_int" class="corner-ribbon ng-scope">Ongoing Event</div>
+
+                      <!-- end ngIf: event.reg_int --> </div> </div> <div class="col-xs-12 col-sm-8 hackathon-listing-content"> <b class="col-xs-12 challenge-listing-heading ng-binding" style="margin-bottom: 15px">Machine Learning FDP</b> <div class="col-xs-12" style="display: flex; padding-left: 15px; padding-right: 15px; flex-wrap: wrap; justify-content: space-between"> <b class="ng-binding"> <i class="fa fa-calendar"></i> March 2, 2019 <!-- ngIf: event.Ending_date != null --><span ng-if="event.Ending_date != null" class="ng-binding ng-scope">- March 3, 2019</span><!-- end ngIf: event.Ending_date != null --> </b> 
+
+                        <b> 
+
+                        <span ng-style="{color: ((event.reg_end | date:'yyyy-MM-dd') > (dayAfterTomorrow | date:'yyyy-MM-dd')) ? '#3baeab' : '#E50914'}" style="color: rgb(59, 174, 171);"> <i class="fa fa-clock-o"></i> <!-- ngIf: (event.reg_end | date:'yyyy-MM-dd') >= (today | date:'yyyy-MM-dd') -->
+
+                        <span ng-if="(event.reg_end | date:'yyyy-MM-dd') >= (today | date:'yyyy-MM-dd')" class="ng-binding ng-scope">Register Before: Jan 20, 2019</span>
+
+                        <!-- end ngIf: (event.reg_end | date:'yyyy-MM-dd') >= (today | date:'yyyy-MM-dd') --> <!-- ngIf: (event.reg_end | date:'yyyy-MM-dd') < (today | date:'yyyy-MM-dd') --> </span> </b> </div>
+
+                         <b class="col-xs-12 ng-binding"><i class="fa fa-map-marker"></i>Pan India<!-- ngIf: event.venue.length >= 80 --></b> 
+
+
+                        <!-- ngIf: (event.reg_start | date:'yyyy-MM-dd') > (today | date:'yyyy-MM-dd') --> <span style="padding-top: 4px" class="col-xs-12 challenge-listing-description ng-binding">All Day   workshop were all hands will be on practical, people will come together and learn,build, and share ideas. there will be a competition and more to learn....</span> </div> <div class="col-xs-12 col-sm-8 button-container"> <button class="listing-buttons" onclick="location.href='event/register.php';">Register Now</button> </div> </div> </div></div>
+
+                      <br><br><br>
+
+                      <div class="container">
+
+                        <hr>
+                        <b> <h5 style="padding-left: 5px">Recent Events</h5> </b>
+                       <hr>
+                        <div class="row">
+                          
+                        </div>
+                      </div>
+
+<br>
+
+<div class="clearfix"></div>
+
+<div class="container">
+        <div class="row">
+
+
+
+            
+            <div class="col-sm-6 col-md-4 col-lg-4 mt-4">
+                <div class="card card-inverse card-info">
+                    <img class="card-img-top" src="images/dev.jpg">
+                    <div class="card-block"> <br><br>
+                        
+                        <h4 class="card-title">AICTE and Student Entrepremeurship- Dr.Ramesh Unnikrishnan <br><br> 
+                                    Sunday,  July 9, 2017  New Delhi</h4><br>
+                        <div class="card-text">
+                            Hon’ble President of India, Hon’ble Shri Pranab Mukherjee attended the launch of SWAYAM, 32 SWAYAM Prabha DTH Channels and National Academic Depository at the National Convention on Digital Initiat
+                        </div>
+                    </div><br>
+                    <div class="card-footer">
+                       
+                        <button class="btn btn-info float-right btn-sm">View More</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-4 mt-4">
+                <div class="card card-inverse card-info">
+                    <img class="card-img-top" src="images/dev3.jpg">
+                    <div class="card-block">
+                       
+                                    <h4 class="card-title">Change In Syllabus and Launch of New Programs<br><br>
+                                        Wednesday, December 17, 2018
+                                        New Delhi</h4>
+                        <div class="card-text">
+                           Shri Prakash Javadekar, hon'ble Union Minister of Human Resources, introduces Smart India Hackathon 2017.
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                       
+                        <button class="btn btn-info float-right btn-sm">View More</button>
+                    </div>
+                </div>
+            </div>
+             <div class="col-sm-6 col-md-4 col-lg-4 mt-4">
+                <div class="card card-inverse card-info">
+                    <img class="card-img-top" src="images/dev2.jpg">
+                    <div class="card-block"><br><br><br>
+                     <h4 class="card-title">Seat Reduction In Private Institution
+                                                 <br><br> Tuesday, September 19, 2017
+                                                  AICTE HQ, New Delhi</h4>
+                        <div class="card-text">
+                            All India Council for Technical Education (AICTE), Ministry of Human Resource Development, Govt.
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        
+                        <button class="btn btn-info float-right btn-sm">View More</button>
+                    </div>
+                </div>
+            </div>
+            
+            
+            </div>
+            
+        </div>
+</div>
+
+
+
+
+            <br><br>
+
+
+                          <div id="block-views-services-block" class="block block-views container edustation-services animation" style="text-align: center;"><hr>
+
+                              
+                            <div class="content">
+                              <div class="view view-services view-id-services view-display-id-block view-dom-id-11e64c413c2679d775d212a6564e79c3">
+                                  
+                            
+                            
+                                <div class="view-content">
+                                <div class="views-view-grid cols-4">
+                                <div class="views-row row-1 row-first row-last clearfix">
+                                                  <div class="grid views-col col-1 col-first">
+                                      <div class="grid-inner col-inner clearfix">
+                                          
+                                    
+                          <div class="fieldset views-fieldset" data-module="views_fieldsets">
+
+                            
+                              <div class="views-field views-field-field-image">
+
+                                <div class="field-content"><img typeof="foaf:Image" src="https://www.aicte-india.org/sites/default/files/images/services/b1.png" width="36" height="52" alt=""></div></div>   
+
+                                 <div class="views-field views-field-name"><h4>2000 Meetings</h4></div>  
+                            
+                          </div>
+
+                              
+                            
+                            <div class="views-field views-field-field-cutome-link">        <div class="field-content"><a href="http://scholarships.gov.in/" target="_blank">Learn More</a></div>  </div>            </div>
+                                    </div>
+                                                          <div class="grid views-col col-2">
+                                      <div class="grid-inner col-inner clearfix">
+                                          
+                                    
+                          <div class="fieldset views-fieldset" data-module="views_fieldsets">
+
+                            
+                              <div class="views-field views-field-field-image"><div class="field-content"><img typeof="foaf:Image" src="https://www.aicte-india.org/sites/default/files/images/services/b2.png" width="44" height="52" alt=""></div></div>    <div class="views-field views-field-name">
+                                <h4>29 FDP</h4>
+                              </div>  
+                            
+                          </div>
+
+                              
+
+                            <div class="views-field views-field-field-cutome-link">        
+
+
+                              <div class="field-content"><a href="https://www.vidyalakshmi.co.in/Students/indexPopup" target="_blank">Learn More</a></div>  
+
+                            </div>            </div>
+                                    </div>
+                                                          <div class="grid views-col col-3">
+                                      <div class="grid-inner col-inner clearfix">
+                                          
+                                    
+                          <div class="fieldset views-fieldset" data-module="views_fieldsets">
+
+                            
+                              <div class="views-field views-field-field-image"><div class="field-content"><img typeof="foaf:Image" src="https://www.aicte-india.org/sites/default/files/images/services/b3.png" width="52" height="35" alt=""></div></div>    <div class="views-field views-field-name"><h4>34 Workshops</h4></div>  
+                            
+                          </div>
+
+                              
+                          
+                            <div class="views-field views-field-field-cutome-link">        <div class="field-content"><a href="https://www.aicte-india.org/schemes/students-development-schemes" target="_blank">Learn More</a></div>  </div>            </div>
+                                    </div>
+                                                          <div class="grid views-col col-4 col-last">
+                                      <div class="grid-inner col-inner clearfix">
+                                          
+                                    
+                          <div class="fieldset views-fieldset" data-module="views_fieldsets">
+
+                            
+                              <div class="views-field views-field-field-image"><div class="field-content"><img typeof="foaf:Image" src="https://www.aicte-india.org/sites/default/files/images/services/b4.png" width="47" height="53" alt=""></div></div>    <div class="views-field views-field-name">
+                                <h4>11 Talks</h4>
+                              </div>  
+                            
+                          </div>
+
+                              
+                            
+                            <div class="views-field views-field-field-cutome-link">        <div class="field-content"><a href="http://www.ciiinnovation.in/" target="_blank">Learn More</a></div>  </div>            </div>
+                                    </div>
+                                            </div>
+                            </div>
+
+
+                              </div>
+                            
+                            
+                            
+                            
+                            
+                            
+                          </div>  </div>
+                          </div>
+
+<div class="container">
+  <hr>
+  <b> <h5 style="padding-left: 5px">Previous Events</h5> </b>
+ <hr>
+  <div class="row">
+    
+  </div>
+</div>
+
+<br>
+
+<div class="clearfix"></div>
+
+<div class="container">
+        <div class="row">
+
+
+           <div class="col-sm-6 col-md-3 col-lg-3 mt-4">
+                <div class="card card-inverse card-info">
+                    <img class="card-img-top" src="images/dev5.png">
+                    <div class="card-block"><br><br>
+                       
+                                    <h4 class="card-title">Smart India Hackathon 2018 </h4>
+                        <div class="card-text">
+                           
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                       
+                        <button class="btn btn-info float-right btn-sm">View More</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-sm-6 col-md-3 col-lg-3 mt-4">
+                <div class="card card-inverse card-info">
+                    <img class="card-img-top" src="images/dev1.jpg">
+                    <div class="card-block">
+                        
+                        <h4 class="card-title">Launch of SWAYAM MOOC’s platform </h4>
+                        <div class="card-text">
+                            
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                       
+                        <button class="btn btn-info float-right btn-sm">View More</button>
+                    </div>
+                </div>
+            </div>
+ <div class="col-sm-6 col-md-3 col-lg-3 mt-4">
+                <div class="card card-inverse card-info">
+                    <img class="card-img-top" src="images/dev3.jpg">
+                    <div class="card-block">
+                       
+                                    <h4 class="card-title">Smart India Hackathon 2017 </h4>
+                        <div class="card-text">
+                           
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                       
+                        <button class="btn btn-info float-right btn-sm">View More</button>
+                    </div>
+                </div>
+            </div>
+             <div class="col-sm-6 col-md-3 col-lg-3 mt-4">
+                <div class="card card-inverse card-info">
+                    <img class="card-img-top" src="images/dev2.jpg">
+                    <div class="card-block"><br>
+                     <h4 class="card-title">AICTE-ECI Chhatra Vishwakarma Awards 2017
+                                                </h4>
+                        <div class="card-text">
+                          
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        
+                        <button class="btn btn-info float-right btn-sm">View More</button>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+        </div>
+</div>
+
+<br>
+
+<div class="container">
+
+  <hr>
+                        <b> <h5 style="padding-left: 5px">Social Media</h5> </b>
+                       <hr>
+<div class="row">
+
+
+
+<div class="col-md-6">
+  
+    <div class="fb-page" data-href="https://www.facebook.com/officialaicte/?ref=br_rs" data-tabs="timeline" data-width="550" data-height="450" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/officialaicte/?ref=br_rs" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/officialaicte/?ref=br_rs">All India Council for Technical Education</a></blockquote></div>
+<div id="fb-root"></div>
+<script async defer src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.2&appId=783926365298351&autoLogAppEvents=1"></script>
+</div>
+  <div class="col-md-6">
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Sunsets don&#39;t get much better than this one over <a href="https://twitter.com/GrandTetonNPS?ref_src=twsrc%5Etfw">@GrandTetonNPS</a>. <a href="https://twitter.com/hashtag/nature?src=hash&amp;ref_src=twsrc%5Etfw">#nature</a> <a href="https://twitter.com/hashtag/sunset?src=hash&amp;ref_src=twsrc%5Etfw">#sunset</a> <a href="http://t.co/YuKy2rcjyU">pic.twitter.com/YuKy2rcjyU</a></p>&mdash; US Department of the Interior (@Interior) <a href="https://twitter.com/Interior/status/463440424141459456?ref_src=twsrc%5Etfw">May 5, 2014</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div></div>
+</div>
+
+           
+
+
+
+
+
+
+ <marquee onmouseover="this.stop()" onmouseout="this.start()">
+          <a href="http://www.aicte-india.org/"><img src="images/org1.jpg"></a>
+          <a href="http://i4c.co.in/"><img src="images/org2.jpg" ></a>
+           <a href="https://www.persistent.com/"><img src="images/org3.jpg"></a>
+            <a href="https://india.gov.in/"><img src="images/org4.jpg"></a>
+             <a href="http://www.nasscom.in/"><img src="images/org5.jpg"></a>
+              <a href=""><img src="images/org6.jpg"></a>
+               <a href="http://mhrd.gov.in"><img src="images/org7.jpg"></a>
+                <a href="https://india.gov.in/"><img src="images/org8.jpg"></a>
+                 <a href="https://india.gov.in/"><img src="images/org9.jpg"></a>
+                  <a href="https://india.gov.in/"><img src="images/org1.jpg"></a>
+             <a href="http://www.aicte-india.org/"><img src="images/org1.jpg"></a>
+          <a href="http://i4c.co.in/"><img src="images/org2.jpg" ></a>
+           <a href="https://www.persistent.com/"><img src="images/org3.jpg"></a>
+            <a href="https://india.gov.in/"><img src="images/org4.jpg"></a>
+             <a href="http://www.nasscom.in/"><img src="images/org5.jpg"></a>
+              <a href=""><img src="images/org6.jpg"></a>
+               <a href="http://mhrd.gov.in"><img src="images/org7.jpg"></a>
+                <a href="https://india.gov.in/"><img src="images/org8.jpg"></a>
+                 <a href="https://india.gov.in/"><img src="images/org9.jpg"></a>
+                  <a href="https://india.gov.in/"><img src="images/org1.jpg"></a>
+
+                     <a href="http://www.aicte-india.org/"><img src="images/org1.jpg"></a>
+          <a href="http://i4c.co.in/"><img src="images/org2.jpg" ></a>
+           <a href="https://www.persistent.com/"><img src="images/org3.jpg"></a>
+            <a href="https://india.gov.in/"><img src="images/org4.jpg"></a>
+             <a href="http://www.nasscom.in/"><img src="images/org5.jpg"></a>
+              <a href=""><img src="images/org6.jpg"></a>
+               <a href="http://mhrd.gov.in"><img src="images/org7.jpg"></a>
+                <a href="https://india.gov.in/"><img src="images/org8.jpg"></a>
+                 <a href="https://india.gov.in/"><img src="images/org9.jpg"></a>
+                  <a href="https://india.gov.in/"><img src="images/org1.jpg"></a>
+
+                     <a href="http://www.aicte-india.org/"><img src="images/org1.jpg"></a>
+          <a href="http://i4c.co.in/"><img src="images/org2.jpg" ></a>
+           <a href="https://www.persistent.com/"><img src="images/org3.jpg"></a>
+            <a href="https://india.gov.in/"><img src="images/org4.jpg"></a>
+             <a href="http://www.nasscom.in/"><img src="images/org5.jpg"></a>
+              <a href=""><img src="images/org6.jpg"></a>
+               <a href="http://mhrd.gov.in"><img src="images/org7.jpg"></a>
+                <a href="https://india.gov.in/"><img src="images/org8.jpg"></a>
+                 <a href="https://india.gov.in/"><img src="images/org9.jpg"></a>
+                  <a href="https://india.gov.in/"><img src="images/org1.jpg"></a>
+
+                     <a href="http://www.aicte-india.org/"><img src="images/org1.jpg"></a>
+          <a href="http://i4c.co.in/"><img src="images/org2.jpg" ></a>
+           <a href="https://www.persistent.com/"><img src="images/org3.jpg"></a>
+            <a href="https://india.gov.in/"><img src="images/org4.jpg"></a>
+             <a href="http://www.nasscom.in/"><img src="images/org5.jpg"></a>
+              <a href=""><img src="images/org6.jpg"></a>
+               <a href="http://mhrd.gov.in"><img src="images/org7.jpg"></a>
+                <a href="https://india.gov.in/"><img src="images/org8.jpg"></a>
+                 <a href="https://india.gov.in/"><img src="images/org9.jpg"></a>
+                  <a href="https://india.gov.in/"><img src="images/org1.jpg"></a>
+                  
+                     </marquee>
+
+      
+
+    <footer id="myFooter">
+
+        <div class="container ">
+            <div class="row" style="margin-top: 1%">
+                <div class="col-md-3 col-xs-12 ">
+                  <div  id='quote' style="    font-size: 20px;
+    font-style: italic;
+    /* margin-top: 45px; */
+    color: floralwhite;
+    border-bottom: 2px solid grey;
+    max-width: 100%;
+    margin-top: 24px;"></div>
+
+   <a href="#top1"> <button type="button" class="btn btn-primary">Back To Top</button></a>
+                </div>
+
+                <div class="col-md-2 col-xs-6">
+                    <h5 style="text-shadow: 2px 2px 5px white;">Get started</h5>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="login.php">Sign up</a></li>
+                        <li><a href="#">Downloads</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <h5 style="text-shadow: 2px 2px 5px white;">About us</h5>
+                    <ul>
+                        <li><a href="#">Aicte Information</a></li>
+                        <li><a href="maps.php">Contact us</a></li>
+                        <li><a href="#">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-xs-6">
+                    <h5 style="text-shadow: 2px 2px 5px white;">Support</h5>
+                    <ul>
+                        <li><a href="#">Grievances</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="Education/feedback.php">Feedback & Suggestions</a></li>
+                        <div class="btn-group dropup">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    More Languages<span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><div id="google_translate_element"></div></li>
+ 
+  </ul>
+</div> 
+                </ul></div>
+
+           
+            
+        
+
+
+
+
+
+
+
+    </footer>
+
+
+
+</div>
+
+ <script src="dashboard/js/jquery.js"></script>
+
+ <script src="dashboard/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">var quotes = [
+    "-Education is the most powerful weapon which you can use to change the world.",
+    "-Education is not preparation for life; education is life itself.",
+    "-Make mistakes, but learn from them.",
+    "-Anyone who has never made a mistake has never tried anything new.",
+    "-To teach is to learn twice.",
+    ];
+
+var i = 0;
+
+setInterval(function() {
+$("#quote").html(quotes[i]);
+    if (i == quotes.length) {
+        i = 0;
+    }
+    else {
+        i++;
+    }
+}, 4000);</script>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            $(".font-button").bind("click", function () {
+                var size = parseInt($('body').css("font-size"));
+                if ($(this).hasClass("plus")) {
+                    size = size + 2;
+                } else {
+                    size = size - 2;
+                    if (size <= 10) {
+                        size = 10;
+                    }
+                }
+                $('body').css("font-size", size);
+            });
+        });
+
+
+        $('ul.nav li.dropdown').hover(function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(100);
+}, function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(100);
+});
+    </script>
+</body>
+</html>
